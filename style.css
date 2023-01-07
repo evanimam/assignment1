@@ -1,0 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Pacifico&display=swap');
+* {
+    margin: 0;
+}
+.main-title {
+    color: rgb(255, 255, 255);
+    font-family: Pacifico;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+.banner {
+    background-image: url(../assignment/images/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 200px;
+    text-align: right;
+}
+
+.primary-text {
+    color: #fff;
+    font-weight: 15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+.btn-primary {
+    background: #786ff1;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.section2 {
+    margin-top: 30px;
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .section2text {
+    font-weight: 8px;
+    font-size: 15px;
+    margin: 10px 10px;
+ }
