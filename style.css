@@ -11,7 +11,7 @@
     margin-bottom: 10px;
 }
 .banner {
-    background-image: url(../assignment/images/banner3.png);
+    background-image: url(./images/banner3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -48,4 +48,84 @@
     font-weight: 8px;
     font-size: 15px;
     margin: 10px 10px;
+ }
+ .section3 {
+
+    align-items: center;
+    text-align: center;
+ }
+ .contents {
+    display: flex;
+
+ }
+ .planstitle {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+ }
+ .plans {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 40px 40px;
+    
+ }
+ .plan {
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+ }
+ .section4 {
+    background-image: url("./images/watch.png"), url(./images/gradient1.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    margin: auto;
+    padding: 150px;
+ }
+ .sect {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 60px;
+ }
+
+.footer {
+    background-color: black;
+    display: flex;
+    padding: 7%;
+    justify-content: space-between;
+    
+}
+.footert {
+    font-size: 40px;
+    color: rgb(247, 250, 243);
+    
+}
+.footerp {
+    color: #9e97f3;
+    font-size: 13px;
+    margin: 8px 0 8px 0;
+}
+ .subscribe {
+    color: #ddd5d5;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 0px 10px 0;
+  
+ }
+ .subscribe input {
+    width: 100%;
+    border: 1px;
+    background: rgb(252, 249, 249);
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 7px;
+    color: #fff;
  }
